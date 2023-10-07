@@ -1,0 +1,152 @@
+ @media (max-width: 600px) { 
+    body{
+	padding: 10px;
+	
+}
+
+/*css for load page*/
+#buddy{
+	color: blue;
+	text-align: center;
+
+}
+#loadPage{
+	display: block;
+	text-align: center;
+	position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+/*  padding: 20px; */
+/*  background-color: #f1f1f1;*/
+}
+#blue{
+	background: blue;
+	color: white;
+}
+#grey{
+	background: #f6fdff;
+	color: black;
+}
+#grey, #blue{
+	border: none;
+	width: 270px;
+	height: 32px;
+	border-radius: 3px;
+}
+
+/*css for signIn/ signUp*/
+select{
+	outline: none;
+	background: #f6fdff;
+	border-radius: 10px;
+	border: none;
+	height: 32px;
+	width: 270px;
+}
+#inputs{
+	height: 100% !important;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.164);
+	border-radius: 10px;
+}
+#workarea{
+	width: 70%;
+	border: none !important;
+	outline: none;
+	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+}
+#workarea1{
+	width: fit-content;
+	height: 200px;
+	border: none !important;
+	outline: none;
+	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+}
+#input{
+	width: 100%;
+	outline: none;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+	border: none;
+	width: 270px;
+	height: 32px;
+	border-radius: 10px;
+	background: blue;
+	color: white;
+}
+#bold,#italic,#underline,#link{
+	background: none;
+	width: fit-content;
+	color: black !important;
+}
+/*index css*/
+#status{
+	width: fit-content;
+	background: #f6fdff;
+	color: black;
+	font-size: 10px;
+	padding: 5px;
+}
+
+#toolBar{
+	padding: 5px;
+	margin-bottom: 15px;
+	display: flex;
+	background: white;
+	box-shadow: 2px 3px 10px #bcdce5;
+	width: 100%;
+	height: fit-content;
+}
+.tool{
+	padding-right: 10px;
+	
+}
+select{
+	width: 100px;
+	background: white;
+}
+#link{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#status{
+	float: right;
+}
+#saveAsOption{
+	padding: 10px;
+	margin-top: 20px;
+	display: flex;
+	background: white;
+	box-shadow: 2px 3px 10px #bcdce5;
+}
+hr{
+	margin: 0px 20px 0px 20px;
+}
+#flname{
+	outline: none;
+}
+select{
+	width: fit-content;
+	height: fit-content;
+	padding: 2px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-left: 3px;
+}
+#savebtn{
+	width: fit-content;
+	height: fit-content;
+	padding: 8px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+#savebtn:hover{
+	background: rgb(69, 69, 228);
+}
+ }

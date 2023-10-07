@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<img src="/icons/wand-magic-sparkles-solid.svg" height="18px">
+	<p id="status">Unsaved</p>
+	<h3>Introducing Buddy</h3>
+	<p>Buddy is a Notion-style text editor and learning<br> companion with autocomplete and interactive learning <br>sessions powered by AI. Start typing...</p>
+
+	<div id="toolBar">
+		<div class="tool"><select name="dropdown">
+				  <option value="option1">Heading 1</option>
+				  <option value="option2">Heading 2</option>
+				  <option value="option3">Heading 3</option>
+			</select>
+		</div>
+				<div class="tool" id="link"><button id="link">link</button></div>
+				<div class="tool" id="link"><button id="bold" onclick="makeBold()"><img src="/icons/bold-solid.svg" alt=""height="15px"></button></div>
+				<div class="tool" id="link"><button id="italic" onclick="makeItalic()"><img src="/icons/italic-solid.svg" alt=""height="15px"></button></div>
+				<div class="tool" id="link"><button id="underline" onclick="makeUnderline()"><img src="/icons/underline-solid.svg" alt=""height="15px"></button></div>
+				<div class="tool" id="link"><button id="underline" onclick="removeFormat()"><img src="/icons/text-slash-solid.svg" alt=""height="15px"></button></div>
+				<div class="tool">
+					<input type="color" name="color" id="colour" onchange="makeHighlight()">
+				</div>
+				
+	</div>
+
+	<div id="inputs">
+		<input id="workarea" type="text" name="title" placeholder="Your title here">
+		<hr>
+		<div id="workarea1" name="text" id="" contenteditable="true" placeholder="Your work here"></div>
+	</div>
+	
+	<div id="saveAsOption">
+		<div id="fileName">
+			<label for="flname">Filename</label><br>
+			<input type="text" name="flname" id="flname">
+		</div>
+		<div id="saveAs">
+			<label for="options">Save As</label><br>
+			<select name="options" id="fileType">
+				<option value="application/pdf">pdf file (.pdf)</option>
+				<option value="application/msword">Doc file (.doc)</option>
+				<option value="text/plain">Text file (.txt)</option>
+			</select>
+		</div>
+		<button id="savebtn">Save</button>
+	</div>
+	
+	<script src="index.js" defer></script>
+	
+
+<!-- <footer>Hupa Tech Lab</footer> -->
+</body>
+</html>
